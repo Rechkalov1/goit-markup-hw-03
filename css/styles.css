@@ -1,0 +1,256 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+/* #212121 
+   #757575   */
+:root {
+  --font-style: "Roboto", sans-serif;
+  --second-style: "Raleway", sans-serif;
+  --second-font-weight: 700;
+  --font-weight: 400;
+  --main-color: #757575;
+  --second-color: #212121;
+  --color-blue:#2196f3;
+  --color-white:#ffffff;
+  
+
+}
+body {
+  font-family: var(--font-style);
+  font-weight: var(--font-weight);
+  color: var(--main-color);
+}
+ul {
+  list-style-type: none;
+}
+.title {
+  background: #2f303a;
+  text-align: center;
+}
+.caption {
+  
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+.all-txt {
+  
+  font-weight: var(--font-weight);
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+}
+.item {
+  
+  text-transform:uppercase;
+  font-weight: var(--second-font-weight);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+
+  color: var(--second-color);
+}
+.desc {
+  
+  font-weight: var(--second-font-weight);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-color);
+}
+.ul-fon {
+  background: #f5f4fa;
+}
+
+.name {
+  
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-color);
+}
+.jobs {
+  text-align: center;
+}
+.btn {
+  
+  font-weight: 700;
+  font-size: 16px;
+  line-height:1.6;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+  background:var(--color-blue);
+  color: var(--color-white);
+  border-radius: 4px;
+}
+.btn:hover { background:#1c84d8;
+
+}
+.btn:focus{ background:#1c84d8;}
+.services-txt:hover {
+  background: var(--color-blue);
+
+  color: var(--color-white);
+}
+.services-txt:focus {
+  color: var(--color-white);
+  background: var(--color-blue);
+}
+.services-txt {
+  font-family: var(--font-style);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background: #f5f4fa;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+.services-txt.current {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.info {
+  
+  font-style: 400;
+  font-weight: var(--second-font-weight);
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--second-color);
+}
+
+.txt-sentence {
+  
+
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 1.9;
+
+  letter-spacing: 0.03em;
+
+ color: var(--main-color);
+}
+a{ text-decoration:none;}
+.link {
+  
+  text-decoration:none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: var(--second-color);
+}
+.link:focus {
+  color: red;
+}
+.link:hover {
+  color: var(--color-blue);
+}
+link:active {
+  background-color: #2196f3;
+}
+.link.current {
+  color:var(--color-blue);
+}
+.contact-info {
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color:var(--main-color);
+  
+}
+.contact-info:active {
+  color: var(--color-blue);
+}
+.contact-info:hover {
+  color: var(--color-blue);
+}
+
+
+.location {
+
+
+  font-weight: var(--font-weight);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--color-white);
+}
+.background {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+
+  background: #2f303a;
+}
+.website {
+  font-family:var(--second-style);
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height:1.2;
+
+  letter-spacing: 0.03em;
+
+  color: var(--color-blue);
+}
+.web {
+  font-family:var(--second-style);
+  text-decoration:none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.8;
+
+  letter-spacing: 0.03em;
+
+  color:var(--color-white);
+}
+.web1 {
+  font-family:var(--second-style);
+  text-decoration:none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.contact-down-info {
+ 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  
+color: rgba(255, 255, 255, 0.6);
+  
+}
+.contact-info:active {
+  color: var(--color-blue);
+}
+.contact-info:hover {
+  color: var(--color-blue);
+}
+/* End */
