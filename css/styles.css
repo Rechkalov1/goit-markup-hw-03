@@ -3,8 +3,8 @@ font-family: 'Roboto', sans-serif;
 /* #212121 
    #757575   */
 :root {
-  --font-style: "Roboto", sans-serif;
-  --second-style: "Raleway", sans-serif;
+  --font-style: 'Roboto', sans-serif;
+  --second-style: 'Raleway', sans-serif;
   --second-font-weight: 700;
   --font-weight: 400;
   --main-color: #757575;
@@ -22,8 +22,10 @@ h2,
 h3,
 h4,
 p,
-ul {
-  margin-top: 0px;
+ul,
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
 ul {
@@ -141,20 +143,24 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  background: #F5F4FA;
-  border-radius: 4px; 
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 .services-txt.current {
   background-color: var(--color-blue);
   color: var(--color-white);
 }
-.txt-info{background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+.txt-info {
+  background: #ffffff;
+
   box-sizing: border-box;
-display: flex;
-flex-wrap: wrap;
-flex-basis: calc(100% -30px)/3;}
-  
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% -30px) / 3;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
 .info {
   font-style: 400;
   font-weight: var(--second-font-weight);
@@ -291,6 +297,7 @@ link:active {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .header-wrapper {
   display: flex;
@@ -329,7 +336,9 @@ link:active {
 .icon:not(:last-child) {
   margin-right: 30px;
 }
-.mentor{margin-right: 30px;}
+.mentor:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* Стилизация портфолио */
 .container-portfolio {
@@ -340,17 +349,24 @@ link:active {
   margin-left: auto;
   display: flex;
   align-items: center;
- 
 }
 .portfolio-button {
-  
   display: flex;
   justify-content: center;
-  margin-top: 79px;
-margin-left: auto;
-margin-right: auto ;}
- 
-.prtf-marg {margin-right: 8px;
- }
- .prtf-marg:not(:last-child) {margin-right: 8px;
- }
+  margin-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.prtf-marg {
+  margin-right: 8px;
+}
+.prtf-marg:not(:last-child) {
+  margin-right: 8px;
+}
+.porfolion-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% -30px) / 3;
+}
