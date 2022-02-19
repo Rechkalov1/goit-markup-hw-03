@@ -370,3 +370,8 @@ link:active {
   margin-top: 30px;
   flex-basis: calc(100% -30px) / 3;
 }
+.border {
+  border-left: 1px solid 1px #eeeeee;
+  border-bottom: 1px solid 1px #eeeeee;
+  border-right: 1px solid 1px #eeeeee;
+}
