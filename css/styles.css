@@ -141,6 +141,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  background: #F5F4FA;
+  border-radius: 4px; 
 }
 .services-txt.current {
   background-color: var(--color-blue);
@@ -327,6 +329,7 @@ link:active {
 .icon:not(:last-child) {
   margin-right: 30px;
 }
+.mentor{margin-right: 30px;}
 
 /* Стилизация портфолио */
 .container-portfolio {
@@ -340,7 +343,14 @@ link:active {
  
 }
 .portfolio-button {
-  width: 611px;
+  
   display: flex;
-  align-items: center;
-}
+  justify-content: center;
+  margin-top: 79px;
+margin-left: auto;
+margin-right: auto ;}
+ 
+.prtf-marg {margin-right: 8px;
+ }
+ .prtf-marg:not(:last-child) {margin-right: 8px;
+ }
