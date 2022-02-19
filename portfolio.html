@@ -16,12 +16,14 @@
   </head>
   <body>
     <header>
-      <nav>
+      
+      <section class="container header-container">
+      <nav><div class="header-link" >
         <a class="website" href="./index.html">Web<span class="web1">Studio</span></a>
-        <ul>
-          <li><a class="link" href="./index.html"> Студия</a></li>
-          <li>
-            <a class="link current" href="Портфолио">Портфолио</a>
+        <ul class="header-list">
+          <li class="header-item"><a class="link current" href="Студия"> Студия</a></li>
+          <li class="header-item">
+            <a class="link"  href="./portfolio.html">Портфолио</a>
             
           </li>
           <li>
@@ -30,15 +32,19 @@
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="header-wrapper">
         <li><a class="contact-info" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact-info" href="tel:+380961111111">+38 0961111111</a></li>
+        <li><a class="contact-info corection" href="tel:+380961111111">+38 0961111111</a></li>
       </ul>
+    </section>  
+    </div>
     </header>
     <main>
+      
       <section class="services">
-        <ul>
-          <li> <button type="button" class="services-txt current">Все</button> </li>
+        <div class="portfolio-button">
+        <ul >
+          <li class="prtf-marg"> <button type="button" class="services-txt current">Все</button> </li>
          
           <li><button type="button"  class="services-txt"> Веб-Сайты</button></li>
           <li><button type="button"  class="services-txt">Приложения</button></li>
@@ -47,8 +53,8 @@
           
         
         </ul>
-     
-   
+     </div> 
+        <div class="container-portfolio ">
         <ul class="txt-info">
           <li><a></a><img src="./imagesporfolio/img.jpg" width="370" height="294" alt="технокряк" />
         
@@ -110,7 +116,9 @@
        <h2 class="info">Growing Business</h2>
       <p class="txt-sentence">Приложение</p></a></li>
       </ul>
+    </div>
       </section>
+    
     </main>
     <footer class="background">
       <a class="website" href="./index.html">Web<span class="web">Studio</span></a>

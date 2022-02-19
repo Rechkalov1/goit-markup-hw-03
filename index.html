@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework#1</title>
+
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- Стили шрифта -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,11 +19,13 @@
   </head>
   <body>
     <header>
-      <nav>
+      
+      <section class="container header-container">
+      <nav><div class="header-link" >
         <a class="website" href="./index.html">Web<span class="web1">Studio</span></a>
-        <ul>
-          <li><a class="link current" href="Студия"> Студия</a></li>
-          <li>
+        <ul class="header-list">
+          <li class="header-item"><a class="link current" href="Студия"> Студия</a></li>
+          <li class="header-item">
             <a class="link"  href="./portfolio.html">Портфолио</a>
             
           </li>
@@ -32,18 +35,25 @@
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="header-wrapper">
         <li><a class="contact-info" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact-info" href="tel:+380961111111">+38 0961111111</a></li>
+        <li><a class="contact-info corection" href="tel:+380961111111">+38 0961111111</a></li>
       </ul>
+    </section>  
+    </div>
     </header>
     <main>
-      <section class="title">
+    
+      <section class="title ">
+        <!-- <div class="container"> -->
         <h1 class="caption">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="btn">Заказать услугу</button>
+      <!-- </div> -->
       </section>
-      <section class="all-item">
-        <ul>
+      <div class="container ">
+       <section class="all-item ">
+        
+        <ul class="main-text">
           <li>
             <h3 class="item">Внимание к деталям</h3>
             <p class="all-txt">
@@ -73,10 +83,13 @@
             </p>
           </li>
         </ul>
+      
       </section>
-      <section>
-        <h2 class="desc">Чем мы занимаемся</h2>
-        <ul>
+    </div>
+    <section>
+      <div class="container">
+      <h2 class="desc">Чем мы занимаемся</h2>
+        <ul class="icon">
           <li>
             <img
               src="./images/box1.jpg "
@@ -102,8 +115,11 @@
             />
           </li>
         </ul>
+      
       </section>
-      <section>
+    </div>
+      <div class="container">
+      <section class="soft-info" >
         <h2  class="desc">Наша Команда</h2>
         <ul  class="ul-fon">
           <li>
@@ -147,7 +163,9 @@
             <p class="jobs">UI Designer</p>
           </li>
         </ul>
+      
       </section>
+    </div>
     </main>
     <footer class="background">
       <a class="website" href="./index.html">Web<span class="web">Studio</span></a>
