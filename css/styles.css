@@ -83,8 +83,10 @@ ul {
 .ul-fon {
   background: #f5f4fa;
   display: flex;
+  margin-bottom: 94px;
 }
 .soft-info {
+  width: 1200px;
   background: #f5f4fa;
 }
 
@@ -119,11 +121,12 @@ ul {
   background: #1c84d8;
 }
 .services {
-  width: 1140px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
 }
 .services-txt:hover {
   background: var(--color-blue);
@@ -156,7 +159,7 @@ ul {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100% -30px) / 3;
+
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -288,12 +291,13 @@ link:active {
 /* End */
 /* Визуализация */
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -331,18 +335,39 @@ link:active {
   margin-bottom: 72px;
 }
 .icon {
+  width: 1200px;
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .icon:not(:last-child) {
   margin-right: 30px;
 }
-.mentor:not(:last-child) {
+.soft-skill:not(:last-child) {
   margin-right: 30px;
+}
+.soft-skill {
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.page-skill {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.page-skill:not(:first-child) {
+  margin-left: 30px;
 }
 
 /* Стилизация портфолио */
 .container-portfolio {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -368,10 +393,19 @@ link:active {
 .porfolion-item {
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc(100% -30px) / 3;
+  flex-basis: calc((100% - 90px) / 3);
 }
-.border {
-  border-left: 1px solid 1px #eeeeee;
-  border-bottom: 1px solid 1px #eeeeee;
-  border-right: 1px solid 1px #eeeeee;
+
+.item-description {
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+.main {
+  margin-bottom: 94px;
+}
+.foto-description {
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
