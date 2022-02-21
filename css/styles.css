@@ -39,7 +39,13 @@ ul {
 
   background: #2f303a;
   text-align: center;
+}
+.hero-container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .caption {
   font-weight: 900;
@@ -50,14 +56,16 @@ ul {
   text-transform: uppercase;
   color: var(--color-white);
   padding-top: 200px;
-
+  max-width: 696px;
   padding-bottom: 30px;
+  margin: auto;
 }
 .all-txt {
   font-weight: var(--font-weight);
   font-size: 14px;
   line-height: 1.7;
-  width: 270px;
+  /* or 171% */
+
   letter-spacing: 0.03em;
 
   color: var(--main-color);
@@ -68,7 +76,7 @@ ul {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;
-
+  margin-bottom: 9px;
   color: var(--second-color);
 }
 .desc {
@@ -77,17 +85,17 @@ ul {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-
+  margin-top: 94px;
+  margin-bottom: 50px;
   color: var(--second-color);
 }
 .ul-fon {
   background: #f5f4fa;
   display: flex;
-  margin-bottom: 94px;
 }
 .soft-info {
-  width: 1200px;
   background: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .name {
@@ -96,7 +104,7 @@ ul {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-
+  margin-bottom: 9px;
   color: var(--second-color);
 }
 .jobs {
@@ -113,6 +121,8 @@ ul {
   color: var(--color-white);
   border-radius: 4px;
   margin-bottom: 200px;
+  width: 200px;
+  height: 50px;
 }
 .btn:hover {
   background: #1c84d8;
@@ -230,15 +240,18 @@ link:active {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
+  margin-bottom: 9px;
   color: var(--color-white);
 }
 .background {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-
   background: #2f303a;
+  padding: 0px;
+}
+.adress {
+  margin-top: 20px;
+}
+.adress-item {
+  margin-bottom: 9px;
 }
 .website {
   font-family: var(--second-style);
@@ -296,9 +309,22 @@ link:active {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin: 94px;
+}
+.container1 {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #ececec;
@@ -328,23 +354,30 @@ link:active {
   margin-right: 50px;
 }
 .main-text {
+  font-family: var(--font-style);
   display: flex;
-  flex-basis: calc(100% -30) / 4;
+  flex-basis: calc(100% - 120px) / 4;
 }
-.main-text:last-child {
-  margin-bottom: 72px;
+
+.main-content {
+  margin-right: 30px;
+  width: 270px;
 }
+.main-content:not(:last-child) {
+  margin-right: 0 px;
+}
+
 .icon {
   width: 1200px;
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
+
+  margin-bottom: 94px;
   margin-left: auto;
 }
-.icon:not(:last-child) {
-  margin-right: 30px;
-}
+
 .soft-skill:not(:last-child) {
   margin-right: 30px;
 }
@@ -359,12 +392,19 @@ link:active {
 .page-skill {
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
-  margin-left: 30px;
 }
 .page-skill:not(:first-child) {
   margin-left: 30px;
 }
-
+.footer {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /* Стилизация портфолио */
 .container-portfolio {
   width: 1200px;
@@ -405,6 +445,7 @@ link:active {
   margin-bottom: 94px;
 }
 .foto-description {
+  padding: 30px;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
