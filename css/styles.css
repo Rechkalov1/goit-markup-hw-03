@@ -32,21 +32,9 @@ ul {
   list-style-type: none;
 }
 .title {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-
   background: #2f303a;
-  text-align: center;
 }
-.hero-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .caption {
   font-weight: 900;
   font-size: 44px;
@@ -57,7 +45,7 @@ ul {
   color: var(--color-white);
   padding-top: 200px;
   max-width: 696px;
-  padding-bottom: 30px;
+
   margin: auto;
 }
 .all-txt {
@@ -85,8 +73,8 @@ ul {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 94px;
-  margin-bottom: 50px;
+
+  padding-bottom: 50px;
   color: var(--second-color);
 }
 .ul-fon {
@@ -95,6 +83,7 @@ ul {
 }
 .soft-info {
   background: #f5f4fa;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -115,12 +104,13 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-
+  margin-bottom: 200px;
   letter-spacing: 0.06em;
   background: var(--color-blue);
   color: var(--color-white);
   border-radius: 4px;
-  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   height: 50px;
 }
@@ -172,6 +162,7 @@ ul {
 
   margin-left: -30px;
   margin-top: -30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .info {
@@ -245,7 +236,6 @@ link:active {
 }
 .background {
   background: #2f303a;
-  padding: 0px;
 }
 .adress {
   margin-top: 20px;
@@ -263,7 +253,7 @@ link:active {
   letter-spacing: 0.03em;
 
   color: var(--color-blue);
-  margin-left: 15px;
+  padding-left: 15px;
 }
 .web {
   font-family: var(--second-style);
@@ -309,41 +299,37 @@ link:active {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin: 94px;
-}
-.container1 {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .header-container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
-  align-items: center;
+}
+.header-box {
   border-bottom: 1px solid #ececec;
+  align-items: center;
+
+  display: flex;
+}
+.site-nav {
+  margin-left: 93px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-wrapper {
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
   margin-left: auto;
 }
-
+.header-row {
+  margin-left: auto;
+}
 .header-list {
   display: flex;
   align-items: center;
-  padding-top: 30px;
-  margin-left: 93px;
-  margin-bottom: 30px;
-  margin-right: 50px;
 }
 
 .header-link {
@@ -353,14 +339,17 @@ link:active {
 .header-item {
   margin-right: 50px;
 }
+.header-item:last-child {
+  margin-right: 0px;
+}
 .main-text {
   font-family: var(--font-style);
   display: flex;
-  flex-basis: calc(100% - 120px) / 4;
+  flex-basis: calc(100% / 4 - 30px);
+  margin-top: 94px;
 }
 
 .main-content {
-  margin-right: 30px;
   width: 270px;
 }
 .main-content:not(:last-child) {
@@ -374,7 +363,6 @@ link:active {
   padding-right: 15px;
   margin-right: auto;
 
-  margin-bottom: 94px;
   margin-left: auto;
 }
 
@@ -390,7 +378,7 @@ link:active {
   border-radius: 0px 0px 4px 4px;
 }
 .page-skill {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
 }
 .page-skill:not(:first-child) {
@@ -449,4 +437,7 @@ link:active {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+}
+.section {
+  padding: 94px 0px;
 }
