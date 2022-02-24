@@ -232,6 +232,7 @@ link:active {
 }
 
 .location {
+  font-family: var(--font-style);
   font-weight: var(--font-weight);
   font-size: 14px;
   line-height: 1.7;
@@ -258,7 +259,6 @@ link:active {
   letter-spacing: 0.03em;
 
   color: var(--color-blue);
-  padding-left: 15px;
 }
 .web {
   font-family: var(--second-style);
