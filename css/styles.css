@@ -178,7 +178,9 @@ ul {
 
   color: var(--second-color);
 }
-
+.info-txt {
+  margin-left: 24px;
+}
 .txt-sentence {
   font-weight: var(--font-weight);
   font-size: 16px;
@@ -403,8 +405,6 @@ link:active {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  display: flex;
-  align-items: center;
 }
 .portfolio-button {
   display: flex;
