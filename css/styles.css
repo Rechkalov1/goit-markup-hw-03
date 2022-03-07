@@ -33,6 +33,9 @@ img {
 ul {
   list-style-type: none;
 }
+a {
+  text-decoration: none;
+}
 .title {
   background: #2f303a;
   padding-top: 200px;
@@ -154,6 +157,9 @@ ul {
   color: var(--second-color);
   background: #f5f4fa;
   border-radius: 4px;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+  padding: 6px 22px;
 }
 .services-txt.current {
   background-color: var(--color-blue);
@@ -248,12 +254,23 @@ link:active {
 }
 .background {
   background: #2f303a;
+  padding: 60px;
 }
 .adress {
+  font-style: normal;
   margin-top: 20px;
 }
 .adress-item {
   margin-bottom: 9px;
+}
+.adress-item:last-child {
+  margin-bottom: 0px;
+}
+.adress-txt {
+  margin-bottom: 9px;
+}
+.adress-txt:last-child {
+  margin-bottom: 0px;
 }
 .website {
   font-family: var(--second-style);
@@ -353,7 +370,8 @@ link:active {
   margin-right: 0px;
 }
 .main {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .main-text {
   display: flex;
@@ -363,8 +381,8 @@ link:active {
   width: 270px;
   margin-right: 30px;
 }
-.main-content:not(:last-child) {
-  margin-right: 30px;
+.main-content:last-child {
+  margin-right: 0px;
 }
 
 .icon {
@@ -394,28 +412,24 @@ link:active {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 /* Стилизация портфолио */
-.container-portfolio {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 .portfolio-button {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
 
+  margin-bottom: 50px;
+}
+.main-foto {
+  padding: 94px;
+}
 .prtf-marg {
+  border: 1px solid #eeeeee;
+  background: #f5f4fa;
+  border-radius: 4px;
   margin-right: 8px;
+  cursor: pointer;
 }
 .prtf-marg:not(:last-child) {
   margin-right: 8px;
@@ -431,15 +445,14 @@ link:active {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
-.main {
-  margin-bottom: 94px;
-}
+
 .foto-description {
   padding: 30px;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  border-radius: 0px 0px 4px 4px;
 }
 .section1 {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
