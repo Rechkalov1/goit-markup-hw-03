@@ -157,7 +157,7 @@ a {
   color: var(--second-color);
   background: #f5f4fa;
   border-radius: 4px;
-  border: 1px solid #eeeeee;
+
   cursor: pointer;
   padding: 6px 22px;
 }
@@ -178,17 +178,13 @@ a {
 }
 
 .info {
-  font-style: 400;
   font-weight: var(--second-font-weight);
   font-size: 18px;
   line-height: 2;
-
-  letter-spacing: 0.06em;
-
+  margin-bottom: 4px;
   color: var(--second-color);
 }
 .info-txt {
-  margin-left: 24px;
 }
 .txt-sentence {
   font-weight: var(--font-weight);
@@ -254,7 +250,8 @@ link:active {
 }
 .background {
   background: #2f303a;
-  padding: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .adress {
   font-style: normal;
@@ -421,8 +418,10 @@ link:active {
 
   margin-bottom: 50px;
 }
-.main-foto {
-  padding: 94px;
+
+.main-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .prtf-marg {
   border: 1px solid #eeeeee;
@@ -444,13 +443,15 @@ link:active {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .foto-description {
   padding: 30px;
-  border-left: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+
   border-radius: 0px 0px 4px 4px;
 }
 .section1 {
